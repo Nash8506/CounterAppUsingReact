@@ -23,7 +23,6 @@ const handleSubtract = ()=>  {
       <Button variant="contained" onClick={handleAdd} >+</Button>
       {counter>0 &&(
         <Button variant="contained" onClick={handleSubtract}>-</Button>)}
-        (// Conditional rendering for the subtract button based on counter > 0.)
 </Stack>
       
 
